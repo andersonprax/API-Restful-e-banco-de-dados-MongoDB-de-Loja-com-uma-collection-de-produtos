@@ -1,0 +1,27 @@
+{
+  "name": "ficr-atividade2-lojaprodutos",
+  "version": "1.0.0",
+  "description": "API Restful com  banco de dados  MongoDB de uma loja com uma coleção de produtos e documentos contendo nome, preço e quantidades desses produtos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andersonprax/FICR-Atividade2-LojaProdutos.git"
+  },
+  "author": "Anderson Praxedes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andersonprax/FICR-Atividade2-LojaProdutos/issues"
+  },
+  "homepage": "https://github.com/andersonprax/FICR-Atividade2-LojaProdutos#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.1"
+  }
+}
